@@ -22,7 +22,7 @@ openBtn.addEventListener('click', () => {
     if (browserStorage >= 5) {
         if (addButtonFlag = true) {
             alertPopup.appendChild(resetBtn);
-            resetBtn.textContent = "Reset Click Number";
+            resetBtn.textContent = "Reset";
             resetBtn.classList.add('popup_resetBtn');
             addButtonFlag = false;
         }
